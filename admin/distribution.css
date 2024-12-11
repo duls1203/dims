@@ -1,0 +1,68 @@
+/* Main Content Styling */
+.content {
+    margin-left: 200px;
+    margin-top: 60px;
+    flex: 1;
+    padding: 20px;
+    background-color: #f8f9fa;
+    overflow-y: auto;
+}
+
+.content h1 {
+    color: #004085;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Donation Box Container */
+.distribution-box-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Individual Donation Boxes */
+.distribution-box {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 300px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+.distribution-box:hover {
+    transform: translateY(-5px);
+}
+
+.distribution-box h2 {
+    font-size: 1.5rem;
+    color: #004085;
+    margin-bottom: 15px;
+}
+
+.distribution-box p {
+    color: #6c757d;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #004085;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 3px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
